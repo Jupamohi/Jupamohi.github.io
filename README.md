@@ -1,76 +1,28 @@
-# Portafolio personal de Juan Pablo Mosquera
+# Jupamohi.github.io
 
-Este repositorio contiene el sitio web personal de Juan Pablo Mosquera, diseñado como un portafolio profesional para mostrar proyectos, habilidades, experiencia académica y medios de contacto. El sitio está desarrollado en HTML, CSS y JavaScript, y está pensado para publicarse en GitHub Pages.
+Repositorio del código fuente del portfolio personal alojado en GitHub Pages.
 
-## Demo
+Este sitio funciona como espacio digital para presentar proyectos académicos, habilidades técnicas, información de contacto y una visión general del perfil profesional. Está construido con HTML, CSS y JavaScript, con el objetivo de mantener una estructura simple, rápida y fácil de mantener.
 
-- Sitio en producción: https://jupamohi.github.io
+## Propósito del repositorio
 
-## Objetivo
+Aquí vive la implementación del portfolio y todo lo relacionado con su diseño y contenido:
 
-El proyecto sirve como carta de presentación para:
+- estructura del sitio en HTML,
+- estilos y diseño visual en CSS,
+- pequeños ajustes de comportamiento en JavaScript,
+- recursos gráficos y tipográficos en `assets/`,
+- contenido principal del portfolio en la página principal.
 
-- mostrar proyectos académicos y profesionales,
-- resaltar tecnologías y herramientas utilizadas,
-- compartir información de contacto,
-- descargar la hoja de vida en formato PDF,
-- presentar una identidad visual moderna y minimalista.
+## Estructura
 
-## Estructura del proyecto
+- `index.html`: layout principal y contenido del portfolio.
+- `style.css`: estilos del sitio, responsive design y paleta visual.
+- `main.js`: lógica ligera para detalles de interacción.
+- `assets/`: imágenes, fuentes y recursos adicionales.
+- `README.md`: descripción del repositorio y propósito del proyecto.
 
-- `index.html`: estructura del contenido del portafolio.
-- `style.css`: estilos visuales, layout y diseño responsive.
-- `main.js`: pequeña lógica para mejorar la experiencia del sitio.
-- `assets/`: imágenes, fuentes y materiales del proyecto.
-- `README.md`: documentación del repositorio.
 
-## Tecnologías utilizadas
+## Licencia y recursos
 
-- HTML5
-- CSS3
-- JavaScript
-- GitHub Pages
-- Fuentes locales en `assets/fonts`
-
-## Cómo ver el proyecto localmente
-
-Hay dos opciones sencillas:
-
-1. Abre directamente `index.html` en tu navegador.
-2. O ejecuta un servidor local desde la carpeta del proyecto:
-
-```bash
-python3 -m http.server 8000
-```
-
-Luego entra en:
-
-```text
-http://localhost:8000
-```
-
-## Cómo publicar en GitHub Pages
-
-1. Crea un repositorio público llamado exactamente `Jupamohi.github.io`.
-2. Sube el contenido de esta carpeta a la rama `main`.
-3. En GitHub, ve a `Settings` > `Pages`.
-4. Selecciona `Deploy from a branch`.
-5. Elige la rama `main` y la carpeta `/ (root)`.
-6. Guarda los cambios y espera unos minutos.
-7. La página estará disponible en `https://jupamohi.github.io`.
-
-## Personalización
-
-Para adaptar el sitio a otro perfil o proyecto, puedes editar:
-
-- `index.html`: textos, proyectos, enlaces, contacto y secciones.
-- `style.css`: colores, tipografías, márgenes y layout.
-- `assets/`: foto, logo o archivos adicionales.
-
-## Nota sobre fuentes
-
-Las fuentes `Bricolage Grotesque` y `Newsreader` están incluidas en `assets/fonts` bajo licencia OFL.
-
-## Licencia
-
-Este proyecto se distribuye para uso personal y profesional del autor del sitio. Si vas a reutilizarlo, mantén la atribución correspondiente y respeta la licencia de las fuentes y recursos incluidos.
+Las fuentes utilizadas en el sitio, así como otros recursos incluidos en `assets/`, deben respetar sus licencias correspondientes. El contenido principal del portfolio es propio y está pensado para uso personal y profesional dentro del contexto del portafolio.
