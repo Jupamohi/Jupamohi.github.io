@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juan Pablo Mosquera, portafolio</title>
+  <meta name="description" content="Portafolio de Juan Pablo Mosquera Hinestroza, estudiante de noveno semestre de Ingeniería de Sistemas en Cali. Proyectos de backend, redes y Linux.">
+  <meta name="theme-color" content="#0F353E">
+  <meta property="og:title" content="Juan Pablo Mosquera, portafolio">
+  <meta property="og:description" content="Estudiante de Ingeniería de Sistemas en Cali que busca una práctica profesional. Proyectos de backend, redes y Linux.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230F353E'/%3E%3Ccircle cx='32' cy='34' r='18' fill='none' stroke='%23E8F1EF' stroke-width='4'/%3E%3Ccircle cx='32' cy='16' r='7' fill='%23FFC62E'/%3E%3C/svg%3E">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <nav class="nav" aria-label="Secciones">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#herramientas">Con qué trabajo</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h1>
+          <span>Juan Pablo</span>
+          <span>Mosquera</span>
+          <span>Hinestroza</span>
+        </h1>
+        <p class="lead">Estudio Ingeniería de Sistemas en Cali y estoy en noveno semestre. Busco una práctica profesional donde escribir código dentro de un equipo. Programo en Python y Java, uso MySQL y trabajo en Debian todos los días.</p>
+        <p class="status">Busco contrato de aprendizaje, presencial, híbrido o remoto. Empiezo en cuanto la universidad autorice la práctica.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="assets/Hoja-de-vida-Juan-Pablo-Mosquera.pdf" download>Descargar hoja de vida (PDF)</a>
+          <a class="btn btn-ghost" href="https://github.com/Jupamohi" rel="noopener">GitHub</a>
+          <a class="btn btn-ghost" href="mailto:mosquerahinestrozajuanpablo13@gmail.com">Escribirme</a>
+        </div>
+      </div>
+
+      <figure class="ring-figure">
+        <svg class="ring" viewBox="0 0 440 370" role="group" aria-label="Mapa de proyectos en forma de anillo">
+          <circle class="ring-track" cx="220" cy="180" r="100"/>
+
+          <a href="#skyrush" aria-label="Ir al proyecto SkyRush">
+            <circle class="node" cx="220" cy="80" r="10"/>
+            <text x="220" y="54" text-anchor="middle">SkyRush</text>
+          </a>
+          <a href="#sin-exquemaz" aria-label="Ir al proyecto Sin Exquemaz">
+            <circle class="node" cx="320" cy="180" r="10"/>
+            <text x="338" y="186" text-anchor="start">Sin Exquemaz</text>
+          </a>
+          <a href="#redes" aria-label="Ir al proyecto Diseño de redes">
+            <circle class="node" cx="220" cy="280" r="10"/>
+            <text x="220" y="318" text-anchor="middle">Redes</text>
+          </a>
+          <a href="#copiloto" aria-label="Ir al proyecto Copiloto para la inclusión">
+            <circle class="node" cx="120" cy="180" r="10"/>
+            <text x="102" y="186" text-anchor="end">Copiloto</text>
+          </a>
+
+          <text class="center" x="220" y="185" text-anchor="middle">proyectos</text>
+
+          <circle class="packet" cx="220" cy="80" r="5.5">
+            <animateMotion dur="8s" begin="0.8s" repeatCount="1" fill="freeze"
+              path="M0,0 a100,100 0 1 1 0,200 a100,100 0 1 1 0,-200"/>
+          </circle>
+        </svg>
+        <figcaption>Una red en anillo, como la que diseñé en clase. Cada nodo lleva a un proyecto.</figcaption>
+      </figure>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="proyectos" class="projects-section">
+    <div class="wrap">
+      <h2>Proyectos académicos</h2>
+      <p class="section-intro">Cuatro trabajos de la carrera, hechos en parejas o en equipos de hasta cinco personas. Dos tienen backend funcional, uno es una simulación de red y uno es una propuesta con ficha técnica.</p>
+
+      <div class="projects">
+
+        <article class="project" id="skyrush">
+          <div class="p-head">
+            <h3>SkyRush</h3>
+            <p class="p-kind">Plataforma web de paracaidismo</p>
+            <p class="p-team">Grupo de 4</p>
+          </div>
+          <div class="p-body">
+            <p>Una página para organizar paracaidismo en Colombia. El backend guarda los datos de las personas interesadas y de los entrenadores o profesionales de la actividad, y un administrador controla esa información desde un CRUD funcional.</p>
+            <!-- Agrega aquí las tecnologías que usaron en SkyRush, por ejemplo: <p class="p-stack">Java, MySQL, ...</p> -->
+          </div>
+        </article>
+
+        <article class="project" id="sin-exquemaz">
+          <div class="p-head">
+            <h3>Sin Exquemaz</h3>
+            <p class="p-kind">Sitio web para una empresa de eventos</p>
+            <p class="p-team">Grupo de 5</p>
+          </div>
+          <div class="p-body">
+            <p>Bodas y Eventos Sin Exquemaz SAS organiza eventos en Cali y no tenía página web. En el curso de organización analizamos la empresa, vimos que eso era un problema y construimos el sitio. Muestra las haciendas y los servicios, y quien lo visita arma su evento de forma más visual e interactiva. Un backend propio guarda la información de las haciendas y los servicios.</p>
+            <p>Fue un ejercicio de clase: la empresa no llegó a recibir el sitio.</p>
+            <p class="p-stack">React con Vite</p>
+          </div>
+        </article>
+
+        <article class="project" id="redes">
+          <div class="p-head">
+            <h3>Diseño de redes</h3>
+            <p class="p-kind">Diseño y simulación de una red</p>
+            <p class="p-team">En parejas</p>
+          </div>
+          <div class="p-body">
+            <p>El caso: somos un proveedor de internet y entre cinco y siete universidades piden una red que las conecte con un servidor, servicio de DNS y WiFi en cada sede. Con un rango de IP asignado, lo dividimos en subredes, dejamos una para cada sede y otra para el anillo, la topología de la red interna entre sedes. Lo simulamos en Cisco Packet Tracer y repetimos el ejercicio en otro semestre con un caso más corto.</p>
+            <p class="p-stack">Cisco Packet Tracer, subneteo, DNS</p>
+          </div>
+        </article>
+
+        <article class="project" id="copiloto">
+          <div class="p-head">
+            <h3>Copiloto para la inclusión</h3>
+            <p class="p-kind">Propuesta de asistente para reuniones virtuales</p>
+            <p class="p-team">Primero en grupo de 4, luego en pareja</p>
+          </div>
+          <div class="p-body">
+            <p>Un asistente para reuniones virtuales pensado para personas que usan Lengua de Señas Colombiana. Traduciría del español a la lengua de señas con un avatar 3D, haría el camino inverso y mostraría subtítulos.</p>
+            <p>Entrevistamos a profesores y a otras personas para entender cómo se atienden estos casos, y con eso escribimos la ficha técnica: planteamiento del problema, objetivos general y específicos, metodología y antecedentes. Es una propuesta documentada, no una aplicación construida.</p>
+            <p class="p-stack">Entrevistas, requerimientos, ficha técnica</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="herramientas" class="tools-section">
+    <div class="wrap">
+      <h2>Con qué trabajo</h2>
+      <p class="section-intro">Indico cuando mi nivel es básico.</p>
+
+      <div class="tools">
+        <div>
+          <h3>Lenguajes y datos</h3>
+          <p>Python y Java son los que más uso. JavaScript, HTML y CSS están en nivel básico y los refuerzo con un curso. Para datos, MySQL.</p>
+        </div>
+        <div>
+          <h3>Web</h3>
+          <p>React con Vite y Flutter, los dos en nivel básico.</p>
+        </div>
+        <div>
+          <h3>Sistemas</h3>
+          <p>Debian en un portátil con arranque dual, WSL y Bash. Estoy aprendiendo Docker y lo uso para repasar otros lenguajes en contenedores.</p>
+        </div>
+        <div>
+          <h3>Redes</h3>
+          <p>Subneteo, DNS y topologías, simulados en Cisco Packet Tracer.</p>
+        </div>
+        <div>
+          <h3>Forma de trabajo</h3>
+          <p>Scrum con reuniones periódicas, y Git y GitHub para el código.</p>
+        </div>
+        <div>
+          <h3>Idiomas</h3>
+          <p>Español nativo. Inglés B1.2, de un curso de la universidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="about-section">
+    <div class="wrap about-grid">
+      <img src="assets/foto.jpg" width="720" height="900" alt="Juan Pablo Mosquera con saco azul y corbata, frente a una pared clara" loading="lazy">
+      <div class="about-text">
+        <h2>Sobre mí</h2>
+        <p>Estudio Ingeniería de Sistemas en la Institución Universitaria Antonio José Camacho, en Cali, y llevo un promedio acumulado de 4.5 sobre 5.0. Hice el bachillerato técnico agropecuario en Pizarro, Bajo Baudó, en el Chocó.</p>
+        <p>Me gusta el desarrollo de software y también el sistema que corre debajo de él. Por eso uso Debian a diario, practico con Docker y he diseñado redes en clase. En los proyectos trabajé con equipos de dos a cinco personas y con Scrum.</p>
+        <p>Todavía no tengo experiencia laboral. Este portafolio muestra lo que he hecho en la universidad y en mis cursos. Otros proyectos pequeños, hechos para aprender Java y Python, están en mi GitHub.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contacto" class="contact">
+  <div class="wrap">
+    <h2>Contacto</h2>
+    <p class="contact-intro">Si tienes una práctica abierta o quieres revisar el código de algún proyecto, escríbeme.</p>
+    <p><a class="mail" href="mailto:mosquerahinestrozajuanpablo13@gmail.com">mosquerahinestrozajuanpablo13@gmail.com</a></p>
+    <ul class="contact-links">
+      <li><a href="https://github.com/Jupamohi" rel="noopener">github.com/Jupamohi</a></li>
+      <li><a href="assets/Hoja-de-vida-Juan-Pablo-Mosquera.pdf" download>Hoja de vida en PDF</a></li>
+      <li><a href="https://www.linkedin.com/in/juan-pablo-moquera-hinestroza-6b9128435/" rel="noopener">LinkedIn</a></li>
+    </ul>
+    <!-- Cuando tu LinkedIn esté listo, agrega aquí un <li> con el enlace. -->
+    <p class="fine">Juan Pablo Mosquera Hinestroza. Cali, Colombia.</p>
+  </div>
+</footer>
+
+</body>
+</html>
